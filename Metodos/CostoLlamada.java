@@ -39,7 +39,10 @@ public class CostoLlamada{
 
     } 
     public void DC(){             //DC=Depositar credito
+        
         JOptionPane.showMessageDialog(null,"A seleccionado depositar credito a su cuenta");
+        tex = JOptionPane.showInputDialog("Ingrese su numero celular");
+        numcel = Long.parseLong(tex);
         tex = JOptionPane.showInputDialog("Deposite el dinero que quiera agregar, recuerde que no puede ser menos de $50 ni exceder los $200");
         ad = Double.parseDouble(tex);
             if (ad<50 | ad>200){
@@ -47,10 +50,14 @@ public class CostoLlamada{
                 ad = Double.parseDouble(tex);
             }
         credito = credito+(int)ad;
+        
         JOptionPane.showMessageDialog(null,"Su credito actual es de: "+credito);
     }
     public void RC(){             //RC=Restar credito
+        
         JOptionPane.showMessageDialog(null,"A seleccionado restar credito a su cuenta");
+        tex = JOptionPane.showInputDialog("Ingrese su numero celular");
+        numcel = Long.parseLong(tex);
         tex = JOptionPane.showInputDialog("Ingrese el numero de llamadas NACIONALES");
         n = Float.parseFloat(tex);
         tex = JOptionPane.showInputDialog("Ingrese el numero de llamadas LOCALES INTERNACIONALES");
@@ -58,6 +65,7 @@ public class CostoLlamada{
         tex = JOptionPane.showInputDialog("Ingrese el numero de llamadas CELULARES");
         c = Float.parseFloat(tex);
         credito = credito - ((int)n+(int)li+(int)c);
+        
         JOptionPane.showMessageDialog(null,"Su credito actual es de: $"+credito);
     } 
 

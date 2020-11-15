@@ -76,7 +76,7 @@ public class AreaYPerimetro{
         }
         a2 = lc*lc;
         p2 = lc*4;
-        JOptionPane.showMessageDialog(null,"Su area es de" +a2+"u^2 y su perimettro es de " +p2+ " u");  
+        JOptionPane.showMessageDialog(null,"Su area es de " +a2+"u^2 y su perimettro es de " +p2+ " u");  
     }    
     public void Circulo(){
 
