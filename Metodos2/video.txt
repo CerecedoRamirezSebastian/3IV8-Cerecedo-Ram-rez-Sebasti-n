@@ -1,0 +1,38 @@
+Buena mañana, tarde o noche. Soy Cerecedo Ramírez Sebastián, grupo 3IV8, No. boleta 2020090710.
+Esta es la explicación de mi código
+
+Ej. 4.
+
+Para saber el sueldo se pregunta primero el 
+puesto que ocupa dentro de la empresa.
+Si es un empleado se pedirá que 
+ingrese las horas extra trabajadas (tanto diurnas, como matutinas);
+por otro lado, si se es supervisor, el sueldo se mostrará
+automáticamente descontando los impuestos. En ambos
+casos se imprime en un método distinto el sueldo en conjunto
+con el identificador del empleado y su apellido
+(datos solicitados anteriormente).
+
+Ej 5.
+
+Creando arreglos unidimensionales, el usuario puede introducir al 
+principio el nombre de su producto y el costo de este;
+después, las existencias de cada producto. 
+Existe un método secundario que permite imprimir los 
+elementos de cada arreglo de manera individual
+para la visualización conjunta del cliente, el mayor y el menor costo, 
+le promedio de los costos y los datos que se introdujeron antes.
+
+Ej 6.
+
+Usando herencia, se crean tres clases las cuales indican
+los datos del libro y sus existencias; después, se imprimen sus datos.
+Después se invoca al método donde puede realizarse el préstamo del
+único libro disponible con el 
+nombre de "Un casco para mi almohada" de Eugine Sledge.
+En dicha clase, se presentará la opción de tomar el libro y huir
+o tomar el libro y llevarse otro adicional; no obstante, las políticas de esta
+biblioteca virtual no permiten llevar más de un libro a la vez, por
+lo que siempre será imposible llevarse otro 
+libro aparte del de "Un casco para mi almohada".
+
